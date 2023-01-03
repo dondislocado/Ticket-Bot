@@ -1,0 +1,71 @@
+{
+    "embeds": {
+      "openTicket": {
+        "title": "Abrir un ticket",
+        "description": "Haz click en el botón para abrir un ticket",
+        "footer": {
+          "text": "is.gd/ticketbot",
+          "iconUrl": ""
+        }
+      },
+      "ticketOpened": {
+        "title": "Ticket CATEGORYNAME",
+        "description": "Un STAFF te responderá lo antes posible!",
+        "footer": {
+          "text": "is.gd/ticketbot",
+          "iconUrl": ""
+        }
+      },
+      "ticketClosed": {
+        "title": "Ticket cerrado",
+        "description": "El ticket ha sido cerrado por: CLOSERNAME por el motivo: `REASON`"
+      },
+      "ticketClosedDM": {
+        "title": "Ticket cerrado",
+        "description": "El ticket n°TICKETCOUNT ha sido cerrado por CLOSERNAME por el motivo: `REASON`\n\nAquí tienes el historial del ticket: TRANSCRIPTURL",
+        "footer": {
+          "text": "is.gd/ticketbot",
+          "iconUrl": ""
+        }
+      }
+    },
+    "modals": {
+      "reasonTicketOpen": {
+        "title": "Abrir un ticket",
+        "label": "Motivo de tu ticket",
+        "placeholder": "Por favor, introduce el motivo por el que quieres abrir un ticket"
+      },
+      "reasonTicketClose": {
+        "title": "Cerrar ticket",
+        "label": "Motivo por el que quieres cerrar el ticket",
+        "placeholder": "Por favor, introduce el motivo por el que quieres cerrar el ticket"
+      }
+    },
+    "buttons": {
+      "close": {
+        "label": "Cerrar ticket",
+        "emoji": "🔒"
+      },
+      "claim": {
+        "label": "Reclamar",
+        "emoji": "🙋"
+      }
+    },
+    "ticketOpenedMessage": "Ticket abierto! TICKETCHANNEL",
+    "ticketOnlyClaimableByStaff": "El ticket únicamente puede ser reclamado por un STAFF!",
+    "ticketAlreadyClaimed": "El ticket ya ha sido reclamado!",
+    "ticketClaimedMessage": "> Ticket reclamado por USER",
+    "ticketOnlyClosableByStaff": "Solo un STAFF puede cerrar el ticket!",
+    "ticketAlreadyClosed": "El ticket ya ha sido cerrado!",
+    "ticketCreatingTranscript": "> Creando un historial del ticket...",
+    "ticketTranscriptCreated": "> Historial del ticket creado! TRANSCRIPTURL",
+    "ticketLimitReached": "Solo puedes tener abiertos TICKETLIMIT tcikets a la misma vez!",
+  
+    "other": {
+      "openTicketButtonMSG": "Abrir un ticket",
+      "deleteTicketButtonMSG": "Borrar ticket",
+      "selectTicketTypePlaceholder": "Selecciona una categoría",
+      "claimedBy": "**Reclamado por**: USER",
+      "noReasonGiven": "No ha proporcionado el motivo"
+    }
+  }
